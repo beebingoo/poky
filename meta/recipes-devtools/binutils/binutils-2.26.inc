@@ -36,6 +36,7 @@ SRC_URI = "\
      file://0014-Correct-nios2-_gp-address-computation.patch \
      file://aarch64-tls.patch \
      file://0015-fix-the-incorrect-assembling-for-ppc-wait-mnemonic.patch \
+     file://MIPS-GAS-Fix-an-ISA-override-not-lifting-ABI-restrictions.patch \
 "
 S  = "${WORKDIR}/git"
 
