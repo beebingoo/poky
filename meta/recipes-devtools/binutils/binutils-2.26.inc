@@ -18,7 +18,7 @@ BINUPV = "${@binutils_branch_version(d)}"
 
 UPSTREAM_CHECK_GITTAGREGEX = "binutils-(?P<pver>\d+_(\d_?)*)"
 
-SRCREV = "71fa566a9cf2597b60a58c1d7c148bab637454a6"
+SRCREV = "c29838e7f484e0b5714b02e7feb9a88d3a045dd2"
 SRC_URI = "\
      git://sourceware.org/git/binutils-gdb.git;branch=binutils-${BINUPV}-branch;protocol=git \
      file://0002-configure-widen-the-regexp-for-SH-architectures.patch \
@@ -36,7 +36,6 @@ SRC_URI = "\
      file://0014-Correct-nios2-_gp-address-computation.patch \
      file://aarch64-tls.patch \
      file://0015-fix-the-incorrect-assembling-for-ppc-wait-mnemonic.patch \
-     file://MIPS-GAS-Fix-an-ISA-override-not-lifting-ABI-restrictions.patch \
 "
 S  = "${WORKDIR}/git"
 
