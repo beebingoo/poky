@@ -13,6 +13,7 @@ RDEPENDS_${PN} += " \
                lighttpd-module-indexfile \
                lighttpd-module-dirlisting \
                lighttpd-module-staticfile \
+               lighttpd-module-fastcgi \
 "
 
 SRC_URI = "http://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-${PV}.tar.xz \
